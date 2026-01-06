@@ -3,6 +3,7 @@ title: "X (Twitter): Disable autoplay"
 last_verified: 2026-01-06
 platforms: ["web", "iOS", "android"]
 tags: ["x", "twitter", "video", "autoplay", "settings"]
+comments: true
 ---
 
 ## Goal

@@ -1,16 +1,19 @@
 site_name: Fix the Internet Wiki
 site_description: Practical, step-by-step fixes for frustrating “hidden” settings and dark patterns.
+site_url: https://lukastymo.github.io/fix-the-internet/
 repo_url: https://github.com/lukastymo/fix-the-internet
 repo_name: lukastymo/fix-the-internet
 edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
     - navigation.indexes
+    - navigation.footer
     - content.tags
     - toc.follow
     - search.suggest
@@ -24,6 +27,16 @@ markdown_extensions:
   - admonition
   - attr_list
   - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
 
@@ -31,8 +44,18 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 extra:
+  giscus:
+    # Enable per-page comments backed by GitHub Discussions.
+    # Setup: https://giscus.app/
+    # Fill these in from the giscus.app "Enable giscus" step:
+    repo: lukastymo/fix-the-internet
+    repo_id: "R_kgDOQ09Y2A"
+    category: General
+    category_id: "DIC_kwDOQ09Y2M4C0qFQ"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lukastymo/fix-the-internet
@@ -49,6 +72,9 @@ nav:
   - Home: index.md
   - Tags: tags.md
   - Feedback: feedback.md
+  - Services:
+      - Overview: services/index.md
+      - X (Twitter): services/x/index.md
   - How-to:
       - X (Twitter) — Disable video autoplay: how-to/x-disable-autoplay.md
   - Templates:

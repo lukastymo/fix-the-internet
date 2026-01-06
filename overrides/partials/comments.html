@@ -1,0 +1,40 @@
+{#-
+  Giscus-powered comments (GitHub Discussions).
+  Rendered only when a page opts in via front matter: `comments: true`
+-#}
+
+{% if page.meta and page.meta.comments %}
+  <h2 id="comments">Discussion</h2>
+  <p>
+    Comments are powered by
+    <a href="https://github.com/lukastymo/fix-the-internet/discussions">GitHub Discussions</a>.
+  </p>
+
+  {% if config.extra and config.extra.giscus and config.extra.giscus.repo_id and config.extra.giscus.category_id %}
+    <script
+      src="https://giscus.app/client.js"
+      data-repo="{{ config.extra.giscus.repo }}"
+      data-repo-id="{{ config.extra.giscus.repo_id }}"
+      data-category="{{ config.extra.giscus.category }}"
+      data-category-id="{{ config.extra.giscus.category_id }}"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="preferred_color_scheme"
+      data-lang="en"
+      crossorigin="anonymous"
+      async>
+    </script>
+  {% else %}
+    <div class="admonition warning">
+      <p class="admonition-title">Comments not configured yet</p>
+      <p>
+        The site owner needs to configure Giscus IDs in <code>mkdocs.yml</code>.
+      </p>
+    </div>
+  {% endif %}
+{% endif %}
+
+

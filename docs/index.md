@@ -16,6 +16,10 @@ Practical, step-by-step fixes for frustrating “hidden” settings and dark pat
 ### Troubleshooting
 - (coming soon)
 
+## Browse by service
+
+- [Services](services/index.md)
+
 ## Contribute
 
 Found something that changed or a better path? Please open a PR.

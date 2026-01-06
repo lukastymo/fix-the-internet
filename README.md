@@ -2,6 +2,8 @@
 
 Practical, step-by-step fixes for frustrating “hidden” settings and dark patterns across the internet.
 
+**Website:** [lukastymo.github.io/fix-the-internet](https://lukastymo.github.io/fix-the-internet/)
+
 ## Browse (curated)
 
 - **Start here**: `docs/index.md`
