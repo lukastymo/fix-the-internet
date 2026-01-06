@@ -5,7 +5,7 @@ Practical, step-by-step fixes for frustrating “hidden” settings and dark pat
 ## Browse by category
 
 ### How-to
-- [X (Twitter): Disable autoplay](how-to/x-disable-autoplay.md)
+- [X (Twitter) — Disable video autoplay](how-to/x-disable-autoplay.md)
 
 ### Guides
 - (coming soon)
@@ -20,5 +20,10 @@ Practical, step-by-step fixes for frustrating “hidden” settings and dark pat
 
 Found something that changed or a better path? Please open a PR.
 See `CONTRIBUTING.md` for the preferred format.
+
+## Feedback / voting
+
+- If this helped, **star the repo**: `https://github.com/lukastymo/fix-the-internet`
+- For discussion/requests: `feedback.md`
 
 
