@@ -1,0 +1,44 @@
+---
+title: "X (Twitter): Disable autoplay"
+last_verified: 2026-01-06
+platforms: ["web", "iOS", "android"]
+tags: ["x", "twitter", "video", "autoplay", "settings"]
+---
+
+## Goal
+
+Disable video autoplay on X.
+
+## Steps (Web)
+
+1. Open X and go to **Settings and privacy**.
+2. Go to **Accessibility, display, and languages**.
+3. Open **Data usage**.
+4. Find **Autoplay** and set it to **Never**.
+
+## Steps (iOS)
+
+1. Open X → tap your profile icon.
+2. Go to **Settings and privacy** → **Accessibility, display, and languages** → **Data usage**.
+3. Set **Video autoplay** to **Never**.
+
+## Steps (Android)
+
+1. Open X → tap your profile icon.
+2. Go to **Settings and privacy** → **Accessibility, display, and languages** → **Data usage**.
+3. Set **Video autoplay** to **Never**.
+
+## Notes / gotchas
+
+- Menu labels can change; if you can’t find **Data usage**, search settings for “autoplay”.
+
+## If it doesn’t work
+
+- Force-close and reopen the app.
+- Try toggling autoplay to another option and back to **Never**.
+
+## Sources
+
+- (Add links/screenshots if you have them.)
+
+
