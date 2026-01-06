@@ -11,10 +11,11 @@ Disable video autoplay on X.
 
 ## Steps (Web)
 
-1. Open X and go to **Settings and privacy**.
-2. Go to **Accessibility, display, and languages**.
-3. Open **Data usage**.
-4. Find **Autoplay** and set it to **Never**.
+1. Open X and click **More** on the left sidebar.
+2. Go to **Settings and privacy**.
+3. Go to **Accessibility, display, and languages**.
+4. Open **Data usage**.
+5. Find **Autoplay** and set it to **Never**.
 
 ## Steps (iOS)
 
