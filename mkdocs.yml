@@ -11,6 +11,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.indexes
+    - content.tags
     - toc.follow
     - search.suggest
     - search.highlight
@@ -28,9 +29,16 @@ markdown_extensions:
 
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
+
+extra_javascript:
+  - _assets/header-title-link.js
+  - _assets/tags-headings-clickable.js
 
 nav:
   - Home: index.md
+  - Tags: tags.md
   - How-to:
       - X (Twitter): how-to/x-disable-autoplay.md
   - Templates:
