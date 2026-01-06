@@ -30,16 +30,6 @@ Then open the URL it prints (usually `http://127.0.0.1:8000/`). It auto-reloads 
 
 ## Create a new post
 
-You can do this either via GitHub Issues (recommended for coordination) or directly via a PR.
-
-### Option A: Open an Issue (uses the template)
-
-1. Go to **Issues** → **New issue**
-2. Choose **New article request**
-3. Fill in the goal + platforms + any notes
-
-### Option B: Add the page in a PR
-
 1. Copy the template: `docs/_templates/how-to.md`
 2. Create a new file under the right folder (usually `docs/how-to/`)
 3. Add it to navigation:

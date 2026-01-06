@@ -25,12 +25,6 @@ Thanks for helping keep this wiki accurate.
 
 ## Submitting changes
 
-### Option A: Start with an Issue (recommended)
-
-Open an Issue using **New article request** if you want to propose a page first or coordinate on wording/verification.
-
-### Option B: Open a PR
-
 1. Create a branch
 2. Add/edit pages under `docs/`
 3. If you add a new page, also add it to:
